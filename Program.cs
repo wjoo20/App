@@ -22,6 +22,7 @@ builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepositor
 
 var app = builder.Build();
 
+//workflow
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
